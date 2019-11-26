@@ -1,0 +1,312 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2019, 5:34:55 PM
+    Author     : hectorlliguichuzca
+*/
+
+
+body{
+    background-color: #333;
+    padding: none;
+    width:100%;
+}
+
+.titles{
+
+    color:white;
+}
+
+
+.Banner{
+    background:black;
+
+    width:100%;
+    position:static;
+    overflow:hidden;
+    height:90px;
+    padding:10px;
+
+}
+
+
+.Banner img{
+
+    width: 100%;
+
+}
+.Banner h1{
+    color:white;
+}
+
+
+.title{
+    color:white;
+    position:absolute;
+    width:auto;
+    text-align:center;
+    top:auto;
+    left:auto;
+    font-family: futura;
+    background: black;
+    padding: 5px;
+}
+
+
+.links{
+    background: white;
+    width:100%;
+    border: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.links a{
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    display:inline-block;
+    font-family: futura;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.links a:hover{
+    background:green;
+    color:white;
+}
+
+
+
+.active{
+    background: green;
+    color:white !important;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .links a{
+
+        border-bottom: 1px solid grey;
+        display:block;
+
+
+    }
+
+
+    .links a:last-child{
+
+        border-right: none;
+    }
+    
+    
+    
+
+
+}
+
+
+
+/*NOTIFICATION*/
+
+
+.notification{
+
+    background: red;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.blogContainer{
+
+
+
+    margin-top: 30px;
+    color:black;
+    background: #e9ecef;
+    box-sizing: border-box;
+    padding: 10px;
+    height:800px;
+    overflow: hidden;
+    border-radius: 8px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+
+
+}
+
+.blogContainer-detail{
+
+    margin-top: 30px;
+    color:black !important;
+    background: #e9ecef;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+    height: 800px auto;
+}
+
+.content-detail{
+    padding: 6px;
+    background: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    height: 400px auto;
+    color:black !important;
+}
+
+
+.blogContainer:last-child{
+    /*    margin-bottom: 30px; */
+}
+
+.blogContainer h1{
+    text-align: center;
+}
+
+.content{
+    padding: 6px;
+    background: white;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    height: 400px;
+    color:black !important;
+    font-size: 2;
+}
+
+.content img{
+    width:100px;
+    height: 100px
+}
+
+
+.userTag{
+    color:blue;
+}
+
+
+.categories{
+    display:inline;
+    float:left;
+    color:#EE0000;
+    margin-left: 4px;
+
+}
+.hashtags{
+    display:inline;
+    float:left;
+    color:#017aff;
+   font-size: 12px;
+   
+}
+
+
+
+
+table th {
+    color: white !important;
+
+}
+
+table tr{
+    color: white !important; 
+}
+
+
+
+
+
+
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 400px;
+    caret-color:transparent;
+    line-height: 40px;
+    transition: width 0.4s linear;
+    box-sizing: border-box;
+}
+
+/*.searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+}*/
+
+/*.searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+}*/
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:red;
+    text-decoration:none;
+    background: black;
+    box-sizing: border-box;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    
+
+.search_input{
+   
+    width: 300px;
+
+}
+
+
+    
+
+
+}
