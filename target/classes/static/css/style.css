@@ -3,16 +3,86 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : Nov 12, 2019, 5:34:55 PM
     Author     : hectorlliguichuzca
 */
 
 
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Nov 12, 2019, 5:34:55 PM
+    Author     : hectorlliguichuzca
+*/
+
+*{
+
+
+}
+nav input[type=text] {
+    float: right;
+    margin-right: 16px;
+    border: none;
+    font-size: 16px;
+    background:#2222;
+}
+
+
+
+
 body{
-    background-color: #333;
+    background-color: white;
     padding: none;
     width:100%;
+
+/*    position:relative;*/
+}
+
+nav{
+    background: white;
+    box-sizing: border-box;
+    font-size: 16px;
+    /*    padding-bottom: 4px;
+        padding-top: 4px;*/
+    text-align: center;
+
+    width:100%;
+    border-bottom: 1px solid lightgray;
+    /* box-shadow: 2px 2px 2px #aaa;*/
+    margin-bottom: 8px;
+}
+
+nav ul li{
+
+    box-sizing: border-box;
+
+}
+
+
+nav ul{
+
+    box-sizing: border-box;
+}
+
+nav li{
+
+    display: inline-block;
+    padding-left:30px;
+
+
+}
+
+
+
+nav a{
+    color:black;
+
+
+
 }
 
 .titles{
@@ -106,14 +176,18 @@ body{
 
         border-right: none;
     }
-    
-    
-    
+
+
+
 
 
 }
 
-
+.count{
+    color: black;
+    display:inline-block;
+    margin-left: 10px;
+}
 
 /*NOTIFICATION*/
 
@@ -128,26 +202,93 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+.account-info-con{
+    height:auto;
+    margin-right: 200px;
+    position:fixed;
+    background: white;
+    top:60px;
+    padding-top:10px;
+    width:200px;
+    text-align: justify;
+/*    border: 1px solid silver;*/
+
+}
+
+.account-info-con ul li{
+    list-style-type:none;
+        padding-top:10px;
+
+      padding-bottom: 10px;
+}
+
+
+.account-info-con a{
+  padding-top: 10px;
+  color:black;
+
+
+
+}
+.account-info-con a:hover{
+    background: white;
+}
+
+.account-content-con{
+
+    margin-left: 230px;
+}
+
+
 
 
 .blogContainer{
 
-
-
-    margin-top: 30px;
+    margin-top: 4px;
     color:black;
-    background: #e9ecef;
+    background: #eee;
     box-sizing: border-box;
     padding: 10px;
     height:800px;
     overflow: hidden;
-    border-radius: 8px;
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
+/*    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 
 
+
+
+}
+
+.comment-container{
+
+    background: black;
+    height: 40px;
+
+
+
+}
+
+
+.comment-container input[type="text"] {
+    width:400px;
+    height: 40px;
+    color:black;
+    padding: 10px;
+    font-size: 16px;
+    padding-right: 50px;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid silver;
+}
+
+.comment-container input[type="submit"] {
+    margin-left: -50px;
+    height: 20px;
+    font-size: 16px;
+    width: 50px;
+    background: white;
+    color:red;
 }
 
 .blogContainer-detail{
@@ -215,11 +356,9 @@ body{
     display:inline;
     float:left;
     color:#017aff;
-   font-size: 12px;
-   
+    font-size: 12px;
+
 }
-
-
 
 
 table th {
@@ -228,7 +367,7 @@ table th {
 }
 
 table tr{
-    color: white !important; 
+    color: white !important;
 }
 
 
@@ -297,16 +436,60 @@ body,html{
 @media only screen and (max-width: 768px) {
 
 
-    
 
-.search_input{
-   
-    width: 300px;
+
+    .search_input{
+
+        width: 300px;
+
+    }
+
 
 }
+     .menu-icon-con{
+
+        color:white;
+        position:absolute;
+        top:0px;
+        left:0px;
+        display: none;
+        padding: 4px;
+      cursor: pointer;
+    }
 
 
-    
+@media only screen and (max-width: 768px) {
+
+
+    .topbar nav{
+     background: black;
+     color:white;
+     overflow: hidden;
+     height: 45px;
+    }
+
+    .topbar nav ul li a{
+        display:none;
+    }
+
+
+      .search-me{
+        display:none;
+    }
+
+
+    .menu-icon-con{
+
+        display: block;
+    }
+    .account-info-con{
+        display:none;
+
+    }
+    .account-content-con{
+
+    margin-left: 0px;
+}
 
 
 }
