@@ -521,7 +521,7 @@ body,html{
 }
 .menu-icon-con{
     position:fixed;
-    color:white;
+    color:lightseagreen;
 
     top:0px;
     left:0px;
@@ -531,7 +531,9 @@ body,html{
     z-index: 3;
     background: transparent !important;
 }
-
+.menu-icon-con i{
+      color:lightseagreen;
+}
 
 
 
