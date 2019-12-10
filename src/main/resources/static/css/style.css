@@ -510,7 +510,10 @@ body,html{
 
 @media only screen and (max-width: 768px) {
 
+.contentInitial{
 
+    margin-top: 50px;
+}
     .topbar nav{
 
         color:white;

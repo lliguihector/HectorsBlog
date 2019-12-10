@@ -24,7 +24,7 @@ $(document).ready(function () {
          var closeBtn = document.getElementById("closebtn");
 
         if (sideNavBar.style.width = '0px') {
-
+         closeBtn.style.color = 'black';
             sideNavBar.style.width = '200px';
          closeBtn.style.display = 'block';
            openBtn.style.display = 'none';
@@ -43,7 +43,7 @@ function toggleNavClose(){
             sideNavBar.style.width = '0px';
             
             closeBtn.style.display = 'none';
-            closeBtn.style.color = 'black';
+        
             openBtn.style.display = 'block';
            
         }
