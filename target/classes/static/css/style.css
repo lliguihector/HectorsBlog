@@ -84,7 +84,7 @@ nav a{
 }
 
 .titles{
-font-size: 16px;
+    font-size: 16px;
     color:white;
 }
 
@@ -101,13 +101,9 @@ font-size: 16px;
     display: inline-block;
     position: fixed;
     z-index: 2;
-    
+
 }
 
-
-.Banner a:first-child{
-    border-left: none;
-}
 
 .currentLink{
     margin-top: 45px;
@@ -413,25 +409,25 @@ font-size: 16px;
 
 
 table{
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
 
 table th {
-background: white;
-background: silver;
-color: #283e4a;
- 
+    background: white;
+    background: silver;
+    color: #283e4a;
+
 }
 
 table tr{
-background: white;
-    
+    background: white;
+
 }
 
 table td{
-   
+
     border-bottom: 1px solid black;
 }
 
@@ -543,16 +539,16 @@ body,html{
     color: silver;
 }
 
- .icon{
-  display:none;   
- }
+.icon{
+    /*  display:none;   */
+}
 
 @media only screen and (max-width: 768px) {
 
-.contentInitial{
+    .contentInitial{
 
-    margin-top: 50px;
-}
+        margin-top: 50px;
+    }
     .topbar nav{
 
         color:white;
@@ -576,7 +572,7 @@ body,html{
     }
     .account-info-con{
         /*        display:none;*/
-
+        color:white;
         height: 100%;
         top:0px;
         z-index: 2;
@@ -584,6 +580,8 @@ body,html{
         border-radius: 0px;
         transition: .5s;
         width:0px;
+        background:  #283e4a;
+
 
     }
     .account-content-con{
@@ -591,10 +589,19 @@ body,html{
         margin-left: 0px;
     }
 
+    .account-info-con a{ 
+
+        color:white;  
+    }
+
+    .account-info-con  i{
+        color:lightseagreen;
+    }
+
     .titles{
         display: none;
     }
-    
+
     .icon{
         display:inline-table;
     }
@@ -608,7 +615,7 @@ body,html{
     width:100%;
     background: white;
     text-align: justify;
-    
+
 }
 
 .tableViewCell ul li{
@@ -628,5 +635,6 @@ body,html{
     border:none;
     border-bottom: 1px solid black;
     border-radius: 0px;
-    
+
+
 }
