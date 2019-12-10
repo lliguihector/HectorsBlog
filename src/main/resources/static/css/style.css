@@ -84,7 +84,7 @@ nav a{
 }
 
 .titles{
-
+font-size: 16px;
     color:white;
 }
 
@@ -95,17 +95,37 @@ nav a{
     position:static;
     overflow:hidden;
     height:45px;
-    padding:10px;
+    padding-left: 0px; 
+    text-align: justify;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+.Banner a:first-child{
+    border-left: none;
+}
+
+.currentLink{
+    background:  #283e4a;
+    width:100%;
     text-align: center;
-
+    color:silver;
+    display: inline-block
 }
 
-
-
-.Banner h6{
-    color:white;
+.Banner a{
+    box-sizing: border-box;
+    font-size: 30px; 
+    border-left: 1px solid white;
+    color: yellowgreen;
+    padding-left: 4px; 
+    padding-right: 4px; 
 }
 
+.Banner a:hover{
+    background: grey;
+}
 
 .title{
     color:white;
@@ -515,6 +535,13 @@ body,html{
 
 
 
+.current{
+    color: silver;
+}
+
+ .icon{
+  display:none;   
+ }
 
 @media only screen and (max-width: 768px) {
 
@@ -560,6 +587,13 @@ body,html{
         margin-left: 0px;
     }
 
+    .titles{
+        display: none;
+    }
+    
+    .icon{
+        display:inline-table;
+    }
 
 }
 
