@@ -392,16 +392,28 @@ nav a{
 }
 
 
-table th {
-    color: white !important;
+table{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+
+table th {
+background: white;
+background: silver;
+color: #283e4a;
+ 
 }
 
 table tr{
-    color: white !important;
+background: white;
+    
 }
 
-
+table td{
+   
+    border-bottom: 1px solid black;
+}
 
 
 .topbar{
@@ -553,4 +565,19 @@ body,html{
     }
 
 
+}
+
+
+
+.tableViewCell{
+    display: inline-block;
+    width:100%;
+    background: white;
+    text-align: justify;
+    
+}
+
+.tableViewCell ul li{
+    margin-left: 20px;
+    display: inline-block; 
 }
