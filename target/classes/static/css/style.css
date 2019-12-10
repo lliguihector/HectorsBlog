@@ -99,6 +99,9 @@ font-size: 16px;
     text-align: justify;
     box-sizing: border-box;
     display: inline-block;
+    position: fixed;
+    z-index: 2;
+    
 }
 
 
@@ -107,6 +110,7 @@ font-size: 16px;
 }
 
 .currentLink{
+    margin-top: 45px;
     background:  #283e4a;
     width:100%;
     text-align: center;
@@ -116,9 +120,9 @@ font-size: 16px;
 
 .Banner a{
     box-sizing: border-box;
-    font-size: 30px; 
-    border-left: 1px solid white;
-    color: yellowgreen;
+    font-size: 20px; /*
+    border-left: 1px solid white;*/
+    color: lightseagreen;
     padding-left: 4px; 
     padding-right: 4px; 
 }
