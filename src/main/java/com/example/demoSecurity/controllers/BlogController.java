@@ -153,7 +153,7 @@ public class BlogController {
 
         blogpostdao.createBlogPost(blog);
 
-        return "redirect:/addBlog";
+        return "redirect:/home";
     }
 
     //EDIT

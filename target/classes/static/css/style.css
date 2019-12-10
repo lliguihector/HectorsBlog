@@ -90,23 +90,19 @@ nav a{
 
 
 .Banner{
-    background:black;
-
+    background: #283e4a;
     width:100%;
     position:static;
     overflow:hidden;
-    height:90px;
+    height:45px;
     padding:10px;
+    text-align: center;
 
 }
 
 
-.Banner img{
 
-    width: 100%;
-
-}
-.Banner h1{
+.Banner h6{
     color:white;
 }
 
@@ -580,4 +576,19 @@ body,html{
 .tableViewCell ul li{
     margin-left: 20px;
     display: inline-block; 
+}
+
+.addBlogCon {
+    float:center;
+    display: inline-block;
+    margin-top: 30px;
+    background: white;
+}
+
+
+.addBlogCon input[type=text]{
+    border:none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+    
 }
