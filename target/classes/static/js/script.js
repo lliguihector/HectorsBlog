@@ -43,6 +43,7 @@ function toggleNavClose(){
             sideNavBar.style.width = '0px';
             
             closeBtn.style.display = 'none';
+            closeBtn.style.color = 'black';
             openBtn.style.display = 'block';
            
         }
